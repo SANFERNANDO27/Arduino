@@ -2,8 +2,6 @@
 
 #include <Servo.h>
 
-// <>
-
 int i;
 //infra rojo
 int IRpin = 8;
