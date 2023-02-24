@@ -93,7 +93,6 @@ void loop() {
     Serial.println(pingTravelTime);
     }
 
-
   //DC
   digitalWrite(dirPin1, 0);
   digitalWrite(dirPin2, 1);
