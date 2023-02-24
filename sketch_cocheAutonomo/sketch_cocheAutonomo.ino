@@ -3,8 +3,6 @@
 #include <Servo.h>
 
 int i;
-//infra rojo
-int IRpin = 8;
 
 //servomotor
 int servoPin = 2;
