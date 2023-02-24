@@ -160,6 +160,7 @@ void loop() {
 
     //izq mas distancia
     if(izq > der){
+      //girar a la izquierda
       for(i = 0; i < 6; i++){
         //1 
 
@@ -195,7 +196,7 @@ void loop() {
       }
 
 
-    //final
+    //final avanzar en linea recta
     servoPos = servoPosRecto;
       myServo.write(servoPos);
       x = 1;
@@ -204,7 +205,7 @@ void loop() {
 
     //der mas distancia
     if(der>izq){
-      
+      //girar a la derecha
       for(i = 0; i < 6; i++){
         //1
 
@@ -239,7 +240,7 @@ void loop() {
         delay(dtDA);
       }
 
-      //final
+      //final avanzar en linea recta
       servoPos = servoPosRecto;
       myServo.write(servoPos);
       x = 1;
